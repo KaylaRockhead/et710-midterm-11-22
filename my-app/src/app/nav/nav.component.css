@@ -1,0 +1,94 @@
+@charset "utf-8";
+html{
+	background-color:#17252A;
+	
+}
+body{
+	margin:0;
+}
+#container{
+	margin:auto;
+	width:1500px;
+	
+	
+}
+#masthead {
+	background-image:url("https://et710.com/website/jm/ozoneparkimages/masthead.jpg") ;
+	padding-left:200px;
+	padding-bottom:10px;
+	padding-top:20px;
+	opacity:70%;
+}
+.logo, .navbuttons{
+	float:right;
+	background-color:#17252A;
+	border:solid thin #455157;
+	border-radius:120px;
+	margin-right:60px;
+	margin-top:30px;
+}
+h1{
+	color: #FEFFFF;
+	font-size: 70px;
+	position: relative;
+	top: 30px;
+	right: 120px;
+	text-shadow: 7px 0px 10px #17242A;
+}
+#navbar {
+clear:right;
+  overflow: hidden;
+  background-color: #17252A;
+	z-index: 10;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #FEFFFF;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar #navbarul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+	
+}
+#navbar #navbarul li {
+	display: inline-block;
+	margin-left:0px;
+	background-color:#2B7A78;
+	max-width:16.455%;
+	min-width:16.403%;
+	text-align:center;
+}
+#navbar #navbarul li:hover {
+	background-color:#113030;
+	border: thin white solid;
+}
+#navbar #navbarul li li a:hover{
+	color:#DEF2F1;
+}
+#navbar #navbarul li:hover ul {
+	display: block;
+	z-index: 5;
+	opacity:0.7;
+	background-color:#2B7A78;
+}
+#navbar #navbarul li ul {
+  position: absolute;
+ width:14%;
+  display: none;
+}
+#navbar #navbarul li ul li { 
+  background:#2B7A78 ; 
+  display: block; 
+
+}
+#navbar #navbarul li ul li a {display:block !important;
+} 
+#navbar #navbarul li ul li:hover {background: #2B7A78;
+}

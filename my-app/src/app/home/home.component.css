@@ -1,0 +1,94 @@
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#welcome{
+	clear:both;
+	top:15px;
+}
+
+#welcome, #navigatepage, #funfacttab{
+	width: 350px;
+	border-bottom: dotted #17252A 2px;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:10px;
+	opacity:60%;
+	
+	
+}
+
+#container #welcome h2, #navigatepage h2{
+	color: #2B7A7B;
+}
+#funfacttab h2{
+	color: #38AAA7;
+	text-shadow: 9px 0px 8px #000000;
+	font-size: 30px;
+}
+#container #welcome p, #funfacttab ol {
+	color: #D4FFFF;
+	font-size: 20px;
+	
+}
+
+#container #briefhistory h2, #navigatepage h3, #funfacttab h3 {
+	color:#D4FFFF;
+}
+#briefhistory h2{
+	font-size:30px;
+}
+#container #briefhistory p, #navigatepage p {
+	color:#839392;
+	font-size:20px;
+}
+
+#navigatepage a, #briefhistory a, #footer a{
+	color:#3AAFA9;
+}
+#navigatepage a:hover, #briefhistory a:hover, #footer a:hover{
+	color:#2B7A7B;
+	background-color:#FEFFFF;
+}
+#briefhistory{
+	float:right;
+	width:70%;
+	clear:left;
+	text-align:justify;
+}
+#panel ol li img {
+	display:block;
+}
+#panel{
+	margin-top:0px;
+	background-color:#0D1517;
+}
+#panel ol li{
+	margin-top:20px;
+}
+#funfacttab h3{
+	text-align:justify;
+}
+.img1{
+	margin-left:210px;
+	border: solid thin #839392;
+	padding:10px;
+}
+.image2{
+	margin-bottom:20px;
+	border: solid thin #839392;
+	padding: 10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
